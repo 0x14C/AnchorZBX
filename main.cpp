@@ -6,7 +6,7 @@
 #include <curl/curl.h>
 #include <nlohmann/json.hpp>
 #include <windows.h>
-#include "../x64/Release/CLI11/include/CLI/CLI.hpp"
+#include "../x64/Release/CLI11/include/CLI/CLI.hpp" //biblioteca para auxiliar na passagem de parametros via cmd.
 #include "agnt-zabbix.cpp"
 
 using json = nlohmann::json;
@@ -48,7 +48,7 @@ int main(int argc, char** argv) {
         return 0;
     }
 
-    // --- INICIALIZA«√O DO AGENTE ---
+    // --- INICIALIZA√á√ÉO DO AGENTE ---
     ConfigManager::ConfigData config_ativa;
 
     if (!input_data.ip.empty()) {
@@ -75,7 +75,7 @@ int main(int argc, char** argv) {
         return 1; // Falhou no login, encerra.
     }
 
-    // Entra em modo invisÌvel
+    // Entra em modo invis√≠vel
     FreeConsole();
 
     // Loop Principal
@@ -115,7 +115,7 @@ int main(int argc, char** argv) {
 }
 
 //====================================
-//FUN«√O OLD SOMENTE PARA WINDOWS 10.
+//FUN√á√ÉO OLD SOMENTE PARA WINDOWS 10.
 //====================================
 /*
 void showWindowsNotification(int warn, int avg, int high, int disaster) {
