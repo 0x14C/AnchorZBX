@@ -51,6 +51,9 @@ Uma vez que o agente esteja rodando de forma invisível em segundo plano, você 
 anchorZBX.exe show  = Exibe a configuração atual que o agente está utilizando na memória (mascarando a senha/token por segurança).
 anchorZBX.exe clear = Apaga as configurações locais e encerra imediatamente o processo do agente em background
 
+Imagem ilustrando a ferramenta em operação:
+<img width="1655" height="329" alt="notf2" src="https://github.com/user-attachments/assets/a33da184-b0bc-4953-8b98-3aca49babfee" />
+
 
 
 
