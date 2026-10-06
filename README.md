@@ -5,6 +5,7 @@ O **AnchorZBX** é uma ferramenta de monitoramento projetada para atuar em conju
 Com isso, você pode focar em outras tarefas críticas sem a necessidade de manter o dashboard do Zabbix aberto o tempo todo, garantindo que nenhum incidente passe despercebido.
 
 ### Observação: é necessário incluir as seguintes bibliotecas manualmente:
+
 CLI11   = ela é responsável por gerenciar as passagens de parâmetro via cmd para o executável da ferramenta.
 libcurl = Para consumir api do zabbix.
 json    = para tratamento dos dados.
